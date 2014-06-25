@@ -1,0 +1,29 @@
+LABORATIONSINSTRUKTION
+
+LAB 5: Beteendeverifiering
+
+Översiktsbeskrivning
+Lös uppgiften genom att testdriva fram en applikationskontroller för ett textgränssnitt.
+Denna gång använd Mockito för att verifiera beteendet hos controllern.
+
+Uppgiften i detalj
+1. Läs igenom hela laborationsinstruktionen. Fråga kursledare om ni har frågor.
+2. Öppna projektet med namn "pmlib-mock-start" i Visual Studio. Gå igenom koden.
+3. Du har fått ett skelett till en testklass för controllern. Börja med att sätta upp controllerna och 
+   samarbetande objekt. Vad ska mockas?
+4. Skriv ett test som verifierar utskrift när listan är tom (inga filmer). Implementera när testet är rött,
+   som brukligt.
+5. Skriv ett test som verifierar utskrift när det finns två filmer i listan. Implementera.
+6. Laborera lite med det sista testet. Vad händer om du byter ordning på förväntningarna?
+   Överkurs: Lär dig göra bluffobjekt med Mockito som verifierar ordningen också.
+7. Reflektera över lösningen. Gjorde du några insikter?
+
+När är ni klara?
+När ni har fungerande, bra designade, beteendeverifierande tester som kan verifiera beteendet 
+hos applikationskontrollern.
+
+Tips
+* Använd liknande testfall som i laborationen tidigare.
+* Meddelandet vid tom lista finns i controllern.
+* Snabb referens för Moq finns i MoqQuickStart.htm i doc-katalogen
+* Om ni fastnar, öppna projektet "pmlib-mock-end" och titta på vår lösning.

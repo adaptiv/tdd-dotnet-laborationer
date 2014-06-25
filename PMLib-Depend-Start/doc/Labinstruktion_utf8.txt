@@ -1,0 +1,31 @@
+LABORATIONSINSTRUKTION
+
+LAB 4: Testdriva med beroenden
+
+Syfte
+Syftet med denna lab är att hitta sätt att arbeta testdrivet trots beroenden på samarbetande objekt
+och hur man kan implementera s.k. sensing utan avancerade verktyg. 
+
+Översiktsbeskrivning
+Lös uppgiften genom att testdriva fram en applikationskontroller (C:et i MVC) för ett textgränssnitt.
+En kontroller behöver en modell för att hantera data samt en vy för att ta in och skicka ut information.
+
+Uppgiften i detalj
+1. Läs igenom hela laborationsinstruktionen. Fråga kursledare om ni har frågor.
+2. Öppna projektet med namn "pmlib-depend-start" i Visual Studio. Gå igenom koden.
+3. Testerna fungerar inte som de ser ut nu. Din uppgift är att, med hjälp av TDD-teknikerna,
+   få testerna att fungera genom arbeta fram kod för en applikationskontroller.
+   Glöm inte att hålla koden snygg.
+4. Reflektera över lösningen. Gjorde du några insikter?
+
+När är ni klara?
+När ni har fungerande, bra designade tester som kan verifiera svaren från en applikationskontroller
+som fungerar för listning av alla filmer.
+
+Tips
+* Någon lagring av data är inte nödvändigt ännu.
+* Följ ledtrådarna från de specifikationer som inte fungerar.
+  Börja med att se till att skapandet av testfixturen fungerar.
+* Nästa ledtråd: Implementera en "konsolstump".
+* Nästa ledtråd: Implementera konstruktor och Execute() i controllern.
+* Om ni fastnar, öppna projektet "pmlib-depend-end" och titta på vår lösning.

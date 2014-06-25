@@ -1,0 +1,42 @@
+LABORATIONSINSTRUKTION
+
+LAB 1: Testdriva kod
+
+Syfte
+Syftet med denna lab är att få in rytmen för att få in känslan för hur man programmerar med strikt TDD.
+
+Översiktsbeskrivning
+Lös uppgiften genom att testdriva fram kod tillräckligt långt för att lösa behovet som det ser ut nu,
+dvs enligt den user story som finns längst ned. Följ reglerna för TDD strikt.
+
+Uppgiften i detalj
+1. Läs igenom hela denna laborationsinstruktionen. Fråga kursledare om ni har frågor.
+2. Läs igenom kravbeskrivningen. Fundera över vad en central "behållare" för filmer borde klara.
+   User storyn nedan är skriven utifrån användningsperspektiv. Fundera vad detta betyder för filmbehållaren. 
+   Om ni önskar, kontrollera med kursledare att ni förstått.
+3. Öppna projektet med namn "pmlib-code-start" i Visual Studio.
+   Gå igenom koden och verifiera att testerna fungerar innan ni börjar.
+4. Med hjälp av TDD-teknikerna, arbeta fram ytterligare kod för att stödja det beskrivna behovet.
+   Skapa nya klasser om du anser det nödvändigt. Glöm inte att hålla koden snygg.
+5. Reflektera över lösningen. Gjorde du några insikter?
+
+När är ni klara?
+När ni har fungerande, bra designade tester som svarar mot behovet och reflekterat över lösningen.
+
+Tips
+* JUnit följer med Eclipse. Den har en testexekveringsmotor för både JUnit 3 och JUnit 4.
+  Det finns en vy för att köra tester och se resultat.
+* Använd Context Actions (glödlampa i vänstermarginalen) frekvent [Alt-Enter]
+* För att köra ett test: Klicka på grön-gul boll i vänstermarginalen och välj "Run"
+* För att köra om samma test som sist: Alt-RUC
+* Något användargränssnitt eller lagring av data är inte nödvändigt ännu.
+* Om ni fastnar, öppna projektet "pmlib-code-end" och titta på vår lösning.
+
+User story 1 inkl acceptanskriteria
+1 Som dvd-samlare
+  kan jag se hur många filmer jag har
+  för att få status hos andra samlare.
+
+Givet...   -
+när jag... ger kommandot för att lista alla filmer
+så...      visar systemet hur många registrerade filmer det finns (0 eller fler)

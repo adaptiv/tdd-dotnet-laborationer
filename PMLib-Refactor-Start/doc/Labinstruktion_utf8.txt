@@ -1,0 +1,35 @@
+LABORATIONSINSTRUKTION
+
+LAB 3: Refaktorisera kod
+
+Syfte
+Syftet med denna lab är att lära sig att identifiera problem i kod (odörer) och använda några vanliga 
+refaktoriseringar för att eliminiera dessa problem. 
+
+Översiktsbeskrivning
+Lös uppgiften genom att analysera koden, identifiera problem och gradvis ta koden till ett bättre tillstånd.
+
+Uppgiften i detalj
+1. Läs igenom hela laborationsinstruktionen. Fråga kursledare om ni har frågor.
+2. Öppna projektet med namn "pmlib-refactor-start" i Visual Studio.
+3. Läs igenom den givna koden. Hitta klassernas ansvar. Läs igenom testerna och verifiera att de fungerar.
+4. Identifiera uppenbara odörer. Lista och prioritera dem. (Om inte redan gjort.)
+5. Börja med att eliminera det värsta problemet i MovieLibrary (nästan alltid duplicering).
+   Fråga kursledaren om ni är osäkra på hur.
+6. Attackera mindre problem, som namngivning.
+7. Refaktorisera testklassen.
+8. Om alla uppenbara odörer är borttagna, fundera på klassers ansvar och om man bör exponera sina "private parts".
+   Refaktorisera ev problem.
+9. Om ni är nöjda med lösningen, kontakta kursledaren och berätta hur ni tänkt.
+10. Reflektera över lösningen. Gjorde du några insikter?
+11. Reflektera över hur koden ser ut som de arbetar med till vardags. Finns det några problem där? Varför?
+
+När är ni klara?
+När ni har eliminerat alla odörer ni kan hitta och alla som kursledaren tipsar er om.
+Alla tester ska givetvis gå igenom.
+
+Tips
+* Vanliga problem är att klasser och metoder har fel ansvar, felaktig namngivning, duplicering och
+  för långa klasser eller metoder.  
+* Kör testerna före och efter varje refaktorisering.
+* Titta i projektet pmlib-refactor-end om ni behöver fuska litet...

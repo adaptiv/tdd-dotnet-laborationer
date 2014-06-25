@@ -1,0 +1,16 @@
+﻿Movie
+Primitive Obsession: Director är ett namn eller person, inte en string.
+Primitive Obsession: Rating är en värdetyp, inte en string.
+Namngivning: minutes, rating oklara
+Testbarhet: Saknar test
+
+MovieLibrary
+Namngivning: getMovies returnerar en lista av strängar
+Ansvar: getMovies och getMoviesByTitle rotar i privata fält i Movie
+Långa metoder: getMovies, getMoviesByTitle gör både hela listan och bygger upp repr av varje film
+Duplicering: getMovies, getMoviesByTitle
+Ordning på metoder: getMovies, getMoviesByTitle borde ligga nära varandra
+Ömtålighet: Man kan lägga till null-film och få null pointer vid listning
+
+MovieLibraryTest
+Duplicering: Setup

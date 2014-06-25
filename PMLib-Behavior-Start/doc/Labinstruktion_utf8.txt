@@ -1,0 +1,46 @@
+LABORATIONSINSTRUKTION
+
+LAB 2: Testdriva beteende
+
+Syfte
+Syftet med denna lab är att lära sig att tänka i beteende. En annan poäng är att förstå hur vår namngivning
+kan påverka vår syn på testerna och se hur beteenden kan specificeras per tillstånd.
+
+Översiktsbeskrivning
+Lös uppgiften genom att testdriva fram beteende tillräckligt långt för att lösa behovet som det ser ut nu,
+dvs enligt den user story som finns längst ned. Följ reglerna för TDD strikt.
+
+Uppgiften i detalj
+1. Läs igenom hela laborationsinstruktionen. Fråga kursledare om ni har frågor.
+2. Läs igenom den nya kravbeskrivningen. Fundera över vad som är nytt.
+   Kraven nedan är skriven utifrån användningsperspektiv. Fundera vad detta betyder för filmbehållaren.
+   Om ni önskar, kontrollera med kursledare att ni förstått.
+3. Öppna projektet med namn "pmlib-behavior-start" i Visual Studio.
+   Gå igenom koden och verifiera att testerna fungerar innan ni börjar.
+4. Ändra strukturen av testerna med tanke på diskussionen om fixturer och olika beteende.
+   Skapa nya klasser om du anser det nödvändigt.
+5. Med hjälp av TDD-teknikerna, arbeta fram ytterligare kod för att stödja det beskrivna behovet.
+   Glöm inte att hålla koden snygg.
+6. Reflektera över lösningen. Gjorde du några insikter?
+
+När är ni klara?
+När ni har fungerande, bra designade tester som svarar mot behovet och reflekterat över lösningen.
+
+Tips
+* Något användargränssnitt eller lagring av data är inte nödvändigt ännu.
+* För att köra flera tester tillsammans (en s.k. testsvit), markera projektet
+  och högerklicka och välj "Run Unit Tests"
+* Om ni fastnar, öppna projektet "pmlib-behavior-end" och titta på vår lösning.
+
+User story 2 inkl acceptanskriteria
+Som dvd-samlare
+kan jag lista alla filmer i mitt bibliotek
+för att få en överblick av mitt dvd-innehav.
+
+Givet...	att det finns registrerade filmer
+när jag...	ger kommandot för att lista
+så...		listar systemet alla filmer i samlingen
+
+Givet...	att det inte finns några registrerade filmer
+när jag...	ger kommandot för att lista
+så...		meddelar systemet att det inte finns några registrerade filmer

@@ -1,0 +1,37 @@
+﻿Analys: ansvar, namn, duplicering, långa metoder.
+Läs testerna
+Kör testerna
+
+Attackera duplicering: renderMovies
+Fel abstraktionsnivå: renderHeading
+Tillbaka: Inline renderMovies
+Introducera lokal variabel
+Extrahera renderMovies igen (tar båda)
+Inline var moviesToRender
+Extrahera renderMovieTable
+Skapa sortByTitle
+Inline på onödiga variabler
+Byt metodordning renderHeading/renderMovies
+Ändra signatur på renderHeading/renderMovies för att undvika utparametrar
+
+Movie: Byt namn på minutes till lengthInMinutes, ändra get/set
+Förtydliga namn på parametrar och fält
+
+Test: Bryt ut createLibrary som setupmetod
+
+---
+
+Analys: MovieLibrary rotar i privata fält. Fel ansvar.
+
+Ny klass: MovieTest. Testa render.
+Implementera rendermetod gm att kopiera från renderMovies, luta mot kompilatorn
+Förenkla renderMovies
+Inline variabler som är fält i Movie. Tag bort onödiga getters.
+
+Kör testtäckning: 100%
+MovieLibrarys size() används inte. Tag bort (död kod).
+
+---
+
+Analys: Nästa steg?
+Möjligen bryta ut komparatorn till egen klass. Finns ingen naturlig ordning.

@@ -1,0 +1,46 @@
+PROJEKT: PERSONAL MOVIE LIBRARY (PMLIB)
+
+Projektvision
+En personlig DVD-katalog för hantering av samlingen. Ska också hålla reda på utlåningar.
+En enkel klient från kommandoraden räcker tills vidare.
+
+Identifierade user stories
+1 Som dvd-samlare
+  kan jag se hur många filmer jag har
+  för att få status hos andra samlare.
+
+2 Som dvd-samlare
+  kan jag lista alla filmer i mitt bibliotek
+  för att få en överblick av mitt dvd-innehav.
+
+3 Som dvd-samlare
+  kan jag registrera en ny film till samlingen
+  för att kunna utöka mitt innehav.
+  Kommentar: T.ex. via kommando "add Alien".
+  Kommentar: Inga dublettfilmer ska kunna registreras
+
+4 Som dvd-samlare
+  kan jag registrera ett lån av en dvd
+  för att hålla reda på vem som har lånat vilka filmer.
+  Kommentar: T.ex. via kommando "loan E.T.".
+
+6 Som dvd-samlare
+  kan jag markera återlämning av utlånad dvd
+  för att veta vilka filmer jag har fått tillbaka.
+  Kommentar: T.ex. via kommando "return E.T."
+
+7 Som dvd-samlare
+  registrera ett lån av en dvd med datum
+  för att kunna hålla reda på vem som har haft en film länge.
+
+8 Som dvd-samlare
+  kan jag lista alla dvdlån
+  för att se vilka filmer som för tillfället är utlånade.
+
+9 Som dvd-samlare
+  kan jag skicka påminnelser till långlånare
+  för att öka sannolikheten att jag får tillbaka filmerna.
+
+10 Som dvd-samlare
+  kan jag stänga av datorn utan att någon information i registret försvinner
+  för att inte förlora värdefull filmtittartid på att återskapa data.
