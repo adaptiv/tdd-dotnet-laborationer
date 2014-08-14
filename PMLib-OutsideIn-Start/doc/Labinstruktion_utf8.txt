@@ -9,7 +9,7 @@ ska du implementera stödet för listning av ett filmbibliotek som inte är tomt
 Uppgiften i detalj
 1. Läs igenom hela laborationsinstruktionen. Fråga kursledare om ni har frågor.
 2. Öppna projektet med namn "PMLib-OutsideIn-Start" i Visual Studio. Gå igenom koden.
-3. Du har fått två scenarier "lista_tomt_filmbibliotek" och "lista_litet_filmbibliotek"
+3. I projektet "PMLib-OutsideIn-Start-Specs" har du fått två scenarier, "lista_tomt_filmbibliotek" och "lista_litet_filmbibliotek",
    varav "lista_tomt_filmbibliotek" har färdigställts. Båda scenarierna återfinns i katalogen "Egenskaper".
 4. Börja med att komplettera klassen "Egenskaper.Steg.Filmbibliotekssteg" med de steg som behövs
    för att implementera "lista_litet_filmbibliotek".
