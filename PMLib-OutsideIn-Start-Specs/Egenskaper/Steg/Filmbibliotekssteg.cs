@@ -5,7 +5,7 @@ using TechTalk.SpecFlow;
 namespace PMLib_OutsideIn_Start_Specs.Egenskaper.Steg
 {
     [Binding]
-    public class MovieCollectionSteps
+    public class Filmbibliotekssteg
     {
 
         private MovieList _collection;
