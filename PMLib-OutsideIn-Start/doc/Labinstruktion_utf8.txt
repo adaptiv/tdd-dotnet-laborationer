@@ -1,0 +1,30 @@
+﻿LABORATIONSINSTRUKTION
+
+LAB 7: Arbeta utifrån-och-in
+
+Översiktsbeskrivning
+Genom att utgå från den givna koden samt det ännu ej uppfyllda scenariet lista_litet_filmbibliotek
+ska du implementera stödet för listning av ett filmbibliotek som inte är tomt.
+
+Uppgiften i detalj
+1. Läs igenom hela laborationsinstruktionen. Fråga kursledare om ni har frågor.
+2. Öppna projektet med namn "PMLib-OutsideIn-Start" i Visual Studio. Gå igenom koden.
+3. Du har fått två scenarier "lista_tomt_filmbibliotek" och "lista_litet_filmbibliotek"
+   varav "lista_tomt_filmbibliotek" har färdigställts. Båda scenarierna återfinns i katalogen "Egenskaper".
+4. Börja med att komplettera klassen "Egenskaper.Steg.Filmbibliotekssteg" med de steg som behövs
+   för att implementera "lista_litet_filmbibliotek".
+5. Notera att källkoden i applikationen är torftigt implementerad.
+6. Driv utformningen av implementationen med Moq. Om ni försöker er på en lösning som är svår att 
+   skriva mocktester för, fundera på vilka alternativ till den designen ni har. 
+7. Reflektera över lösningen. Gjorde du några insikter?
+
+När är ni klara?
+När ni har fungerande, bra designade, beteendeverifierande tester för applikationen som helhet.
+Fundera också över effekten av att arbeta strikt utifrån och in istället från inifrån och ut 
+eller från mitten och åt båda håll.
+
+Tips
+* Mockning blir svårare när tillstånd exponeras.
+* Det s.k. "visitor"-mönstret kan hjälpa dig att undvika att exponera onödigt tillstånd. 
+* Om ni fastnar, öppna projektet "PMLib-OutsideIn-End" och titta på vårt lösningsförslag.
+  Notera att det finns många olika sätt att lösa problemet på.
