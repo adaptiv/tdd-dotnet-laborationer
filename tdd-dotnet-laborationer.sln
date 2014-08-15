@@ -34,6 +34,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BC496B
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMLib-OutsideIn-End", "PMLib-OutsideIn-End\PMLib-OutsideIn-End.csproj", "{5E9BDF3C-AB14-441F-9C6A-33D201EAC11B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMLib-OutsideIn-End-Specs", "PMLib-OutsideIn-End-Specs\PMLib-OutsideIn-End-Specs.csproj", "{9EC6B99E-6277-4A79-9D96-55D79082A858}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -92,6 +96,14 @@ Global
 		{F2FA95BE-818C-4C47-9E83-9E0CCB9F3461}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2FA95BE-818C-4C47-9E83-9E0CCB9F3461}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2FA95BE-818C-4C47-9E83-9E0CCB9F3461}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E9BDF3C-AB14-441F-9C6A-33D201EAC11B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E9BDF3C-AB14-441F-9C6A-33D201EAC11B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E9BDF3C-AB14-441F-9C6A-33D201EAC11B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E9BDF3C-AB14-441F-9C6A-33D201EAC11B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EC6B99E-6277-4A79-9D96-55D79082A858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC6B99E-6277-4A79-9D96-55D79082A858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC6B99E-6277-4A79-9D96-55D79082A858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC6B99E-6277-4A79-9D96-55D79082A858}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
