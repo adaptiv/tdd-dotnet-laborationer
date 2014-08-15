@@ -40,5 +40,10 @@ namespace PMLibOutsideInEnd
 	        Boolean listEmpty = (numberOfMovies == 0);
 	        _lines.Add(listEmpty ? EmptyListFooter : string.Format(SummaryFooter, numberOfMovies));
 	    }
+
+        public void AddListEntry(Movie movie)
+        {
+            _lines.Add(movie.Titel);
+        }
     }
 }

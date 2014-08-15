@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using System.Linq;
+using NUnit.Framework;
 using Moq;
 
 namespace PMLibOutsideInEnd
@@ -24,5 +25,23 @@ namespace PMLibOutsideInEnd
 		    _controller.List();
             _listView.Verify(lw => lw.AddFooter(0));
 	    }
+
+        [Test]
+        public void ShouldAddMovieTitelsToViewWhenListing()
+        {
+            var movie = new Movie("Jaws");
+            _collection.Add(movie);
+            _controller.List();
+            _listView.Verify(lw => lw.AddListEntry(movie));
+            _listView.Verify(lw => lw.AddFooter(1));
+        }
+
+        [Test]
+        public void ShouldAddMoviesToColletion()
+        {
+            var movie = new Movie("Jaws");
+            _controller.Add(movie);
+            Assert.That(_collection.Contains(movie));
+        }
     }
 }

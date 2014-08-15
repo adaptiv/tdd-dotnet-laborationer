@@ -5,5 +5,6 @@
         string View();
 
         void AddFooter(int numberOfMovies);
+        void AddListEntry(Movie movie);
     }
 }

@@ -19,7 +19,16 @@
 
         public void List()
         {
+            foreach (Movie movie in _collection)
+            {
+                _listView.AddListEntry(movie);
+            }
             _listView.AddFooter(_collection.Size());
+        }
+
+        public void Add(Movie movie)
+        {
+            _collection.Add(movie);
         }
     }
 }
